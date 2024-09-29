@@ -2,7 +2,7 @@ package com.caiocezar.main;
 
 import java.util.Random;
 
-public class Main {
+public class Ex1 {
     public static void main(String[] args) {
         Random rand = new Random();
         int [] vetorA = new int[5];
@@ -12,7 +12,8 @@ public class Main {
             vetorA[i] = rand.nextInt(100);
             vetorB[i] = vetorA[i];
             System.out.println("VetorA: " + vetorA[i] + "\nVetorB: " + vetorB[i]);
+            System.out.println();
         }
-        System.out.println();
+
     }
 }
